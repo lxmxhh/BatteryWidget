@@ -85,7 +85,7 @@ public class BattWidget extends AppWidgetProvider {
 					int intLevel = intent.getIntExtra("level", 0);  
 					int intScale = intent.getIntExtra("scale", 100); 
 
-					Log.e("BATTWIDGET", "receiver,level=" + intLevel);
+					//Log.e("BATTWIDGET", "receiver,level=" + intLevel);
 
 
 					SharedPreferences pres = context.getSharedPreferences(MY_PREFS,Context.MODE_PRIVATE);
